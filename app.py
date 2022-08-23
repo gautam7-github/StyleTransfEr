@@ -55,4 +55,4 @@ def upload_file():
 
 if __name__ == "__main__":
     model = tf.saved_model.load("./model/")
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(port=8080, debug=True)

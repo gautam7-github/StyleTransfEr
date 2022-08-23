@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.files{
+    flex: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+}
+.button{
+    
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%); 
+}
